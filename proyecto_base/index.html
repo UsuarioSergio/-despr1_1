@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portfolio - Control de Versiones</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Mi Portfolio</h1>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <h2>¡Hola! Soy un estudiante de DAW</h2>
+            <p>Bienvenido a mi portfolio digital donde muestro mis proyectos y habilidades en desarrollo web.</p>
+            <button id="cta-button">Ver mis proyectos</button>
+        </section>
+
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <div class="sobre-mi-content">
+                <img src="perfil.png" alt="Mi foto" class="profile-photo">
+                <div class="bio">
+                    <p>Soy estudiante del ciclo formativo de <strong>Desarrollo de Aplicaciones Web (DAW)</strong>.</p>
+                    <p>Me apasiona la tecnología y estoy aprendiendo sobre desarrollo frontend y backend.</p>
+                    <h3>Tecnologías que estoy aprendiendo:</h3>
+                    <ul>
+                        <li>HTML5 & CSS3</li>
+                        <li>JavaScript</li>
+                        <li>Control de versiones con Git</li>
+                        <li>Despliegue de aplicaciones</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="proyectos">
+            <h2>Mis Proyectos</h2>
+            <div class="proyectos-grid">
+                <div class="proyecto-card">
+                    <h3>🌐 Primera Página Web</h3>
+                    <p>Mi primera página HTML con CSS básico.</p>
+                    <span class="tech-tag">HTML</span>
+                    <span class="tech-tag">CSS</span>
+                </div>
+                
+                <div class="proyecto-card">
+                    <h3>📝 Formulario de Contacto</h3>
+                    <p>Formulario interactivo con validación JavaScript.</p>
+                    <span class="tech-tag">HTML</span>
+                    <span class="tech-tag">CSS</span>
+                    <span class="tech-tag">JavaScript</span>
+                </div>
+                
+                <div class="proyecto-card">
+                    <h3>🎮 Próximo Proyecto</h3>
+                    <p>¡Próximamente! Trabajando en algo increíble...</p>
+                    <span class="tech-tag">En desarrollo</span>
+                </div>
+                
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                </div>
+                
+                <button type="submit">Enviar mensaje</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Mi Portfolio - Estudiante DAW. Proyecto para práctica de Git.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
