@@ -248,6 +248,10 @@ h2 {
     transform: translateY(-2px);
 }
 
+p{
+    font-size: 1 rem;
+}
+
 /* Footer */
 footer {
     background: #333;
